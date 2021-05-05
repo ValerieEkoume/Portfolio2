@@ -1,4 +1,19 @@
 
+/* ---------- Togller Navbar --------- */
+const navToggler = document.querySelector(".nav-toggler");
+navToggler.addEventListener("click", () => {
+    hideSection();
+    toggleNavBar();
+    document.body.classList.toggle("hide-scrolling");
+});
+function hideSection() {
+    document.querySelector("section.active").classList.toggle("fade-out");
+}
+function toggleNavBar() {
+    document.querySelector(".header").classList.toggle("active");
+}
+
+/* ---------- Active Section --------- */
 
 /* ---------- About tab --------- */
 
@@ -13,7 +28,6 @@ const tabsContainer = document.querySelector(".about-tabs"),
               aboutSection.querySelector(".tab-content.active").classList.remove("active");
               aboutSection.querySelector(target).classList.add("active");
           }
-
     });
 
 /* ---------- Portfolio Item Details Popup --------- */
