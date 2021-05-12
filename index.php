@@ -144,22 +144,26 @@ include 'download.php';
                         <div class="timeline">
                             <div class="timeline-item">
                                 <span class="date">1999 - 2000 </span>
-                                <h4>Deug d'Anglais</h4> - <span>université Charles V</span>
+                                <h4>Deug d'Anglais</h4> - <span>Université Charles V</span>
                                 <p>Civilisation étrangère</p>
                             </div>
                             <div class="timeline-item">
                                 <span class="date">2015 </span>
                                 <h4>Formation Création d'Entreprise</h4> - <span>CFA de Vesoul</span>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur consequuntur
-                                    cumque dolorem earum necessitatibus repudiandae.
-                                </p>
+                                <ul>
+                                    <li>Stratégie Commerciale </li>
+                                    <li>Gestion/Comptabilité</li>
+                                    <li>Communication</li>
+                                </ul>
                             </div>
                             <div class="timeline-item">
-                                <span class="date">1999 - 2000 </span>
-                                <h4>Deug d'Anglais</h4> - <span>université Charles V</span>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur consequuntur
-                                    cumque dolorem earum necessitatibus repudiandae.
-                                </p>
+                                <span class="date">2020 - 2021 </span>
+                                <h4> Formation Web Design</h4> - <span>ONLINE FORMAPRO</span>
+                                <ul>
+                                    <li>Elaboration un outil de communication numérique</li>
+                                    <li>Création d'un outil de communication numérique </li>
+                                    <li>Gestion et suivi de l'outil</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
