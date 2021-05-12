@@ -1,3 +1,11 @@
+<?php
+
+include 'mail.php';
+include 'download.php';
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,7 +77,7 @@
             <div class="home-text">
                 <p>Bonjour, Je m'appelle</p>
                 <h1> Valérie Ekoume</h1>
-                <h2>Fronted web developer</h2>
+                <h2>Web Designer</h2>
                 <a href="#about" class="btn link-item">A propos de moi</a>
                 <a href="#portfolio" class="btn link-item">portfolio</a>
             </div>
@@ -100,11 +108,18 @@
                 </div>
                 <div class="about-text">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto illo itaque
-                        necessitatibus provident quam quos. Accusamus alias aliquid aspernatur autem corporis cumque,
-                        dolor dolore doloribus ea eaque facilis illum, molestias nostrum officiis quisquam reprehenderit
-                        sit suscipit voluptates voluptatibus voluptatum. Debitis excepturi illo maxime nesciunt perferendis
-                        perspiciatis placeat quia voluptates.
+                        ARTISTE.
+                        <br>
+                        Si vous me demandez de me définir au travers d'un seul mot, c'est
+                        sans aucun doute celui-là que je choisirais.
+                        L'avenir appartient aux créatifs ceux qui sont capable de créer et de ce réinventer,
+                        c'est ce que l'on dit souvent et mes expériences mon permis de réaliser que c'est tout à fait
+                        juste. Notamment dans le  Web design qui est le domaine de création par excellence
+                        tant les possibilités sont infinies. Lorsqu'on commence à explorer toutes les possibilités
+                        offerte par les technologies disponibles, on comprends très vite qu'il n'y a pas de limites.
+                        L'objectif étant de mettre toutes ces possibilités infinies au service du client.
+
+
                     </p>
                     <h3>skills</h3>
                     <div class="skills">
@@ -130,13 +145,11 @@
                             <div class="timeline-item">
                                 <span class="date">1999 - 2000 </span>
                                 <h4>Deug d'Anglais</h4> - <span>université Charles V</span>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur consequuntur
-                                    cumque dolorem earum necessitatibus repudiandae.
-                                </p>
+                                <p>Civilisation étrangère</p>
                             </div>
                             <div class="timeline-item">
-                                <span class="date">1999 - 2000 </span>
-                                <h4>Deug d'Anglais</h4> - <span>université Charles V</span>
+                                <span class="date">2015 </span>
+                                <h4>Formation Création d'Entreprise</h4> - <span>CFA de Vesoul</span>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur consequuntur
                                     cumque dolorem earum necessitatibus repudiandae.
                                 </p>
@@ -179,7 +192,7 @@
                         </div>
                     </div>
                     <!-- Expérience end -->
-                    <a href="cv.pdf" target="_blank" class="btn">télécharger cv</a>
+                    <a href="download.php?file=ValerieEkoumeCV2021.pdf" target="_blank" class="btn">télécharger cv</a>
                     <a href="#contact" class="btn link-item">me contacter</a>
                 </div>
             </div>
@@ -376,19 +389,24 @@
             </div>
             <div class="row">
                 <div class="contact-form">
-                    <form>
+                    <form action="mail.php" name="myForm" class="msgError form-group" onsubmit="return validateForm()" method="POST" >
                         <div class="row">
                             <div class="input-group">
-                                <input type="text" placeholder="Nom" class="input-control" required>
+
+                                <input type="text" placeholder="Nom" class="input-control" name="name" id="name" required>
+                            </div>
+
+                            <div class="input-group">
+
+                                <input type="text" placeholder="Email" class="input-control" name="email" id="email" required>
                             </div>
                             <div class="input-group">
-                                <input type="text" placeholder="Email" class="input-control" required>
+
+                                <input type="text" placeholder="Sujet" class="input-control" name="sujet" required>
                             </div>
                             <div class="input-group">
-                                <input type="text" placeholder="Sujet" class="input-control" required>
-                            </div>
-                            <div class="input-group">
-                                <textarea placeholder="Message" class="input-control" required></textarea>
+
+                                <textarea placeholder="Message" class="input-control" name="message" required></textarea>
                             </div>
                             <div class="submit-btn">
                                <button type="submit" class="btn">Envoyer</button>
