@@ -219,21 +219,17 @@ include 'download.php';
                     <div class="portfolio-item-thumbnail">
                         <img src="images/portfolio/1.jpg" alt="portfolio-item-thumbnail">
                     </div>
-                    <h3 class="portfolio-item-title">Guy Nwogang Website</h3>
+                    <h3 class="portfolio-item-title">Guy Nwogang </h3>
                     <button type="button" class="btn view-project-btn">voir le projet</button>
                     <div class="portfolio-item-details">
                         <div class="description">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolor
-                                doloremque excepturi harum illum itaque nostrum pariatur provident quia veniam! Aliquam
-                                aperiam asperiores commodi, debitis doloremque dolores doloribus ea ex harum iure maiores
-                                necessitatibus nemo non nostrum nulla odio omnis perspiciatis placeat qui quibusdam
-                                repellat reprehenderit suscipit tempore vel velit!
+                            <p>Conception Graphique/ Développement sous Symfony/ site responsive/ Gestion des droits/ Espace Admin
                             </p>
                         </div>
                         <div class="general-info">
                             <ul>
                                 <li>Créé le - <span>17 mars 2021</span></li>
-                                <li>Technologie utilisées - <span>html, css, js, symfony</span></li>
+                                <li>Technologie utilisées - <span>html, css, js, symfony, webpack</span></li>
                                 <li>Role - <span>Frontend</span></li>
                                 <li>Visitez le site en ligne <span><a href="#" target="_blank">www.GuyNwogang.com</a></span></li>
                             </ul>
@@ -244,17 +240,13 @@ include 'download.php';
                 <!-- Portfolio Item Start -->
                 <div class="portfolio-item">
                     <div class="portfolio-item-thumbnail">
-                        <img src="images/portfolio/2.jpg" alt="portfolio-item-thumbnail">
+                        <img src="images/portfolio/puseyjazzfest.png" alt="portfolio-item-thumbnail">
                     </div>
-                    <h3 class="portfolio-item-title">Val2Valprod website</h3>
+                    <h3 class="portfolio-item-title">pusey JazzFest</h3>
                     <button type="button" class="btn view-project-btn">voir le projet</button>
                     <div class="portfolio-item-details">
                         <div class="description">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolor
-                                doloremque excepturi harum illum itaque nostrum pariatur provident quia veniam! Aliquam
-                                aperiam asperiores commodi, debitis doloremque dolores doloribus ea ex harum iure maiores
-                                necessitatibus nemo non nostrum nulla odio omnis perspiciatis placeat qui quibusdam
-                                repellat reprehenderit suscipit tempore vel velit!
+                            <p>Création d'un thème enfant/ Gestion des posts/
                             </p>
                         </div>
                         <div class="general-info">
@@ -262,7 +254,7 @@ include 'download.php';
                                 <li>Créé le - <span>25 avril 2021</span></li>
                                 <li>Technologie utilisées - <span>Wordpress</span></li>
                                 <li>Role - <span>Frontend</span></li>
-                                <li>Visitez le site en ligne <span><a href="#" target="_blank">www.GuyNwogang.com</a></span></li>
+                                <li>Visitez le site en ligne <span><a href="#" target="_blank">www.PuseyJazzFest.com</a></span></li>
                             </ul>
                         </div>
                     </div>
@@ -277,19 +269,15 @@ include 'download.php';
                     <button type="button" class="btn view-project-btn">voir le projet</button>
                     <div class="portfolio-item-details">
                         <div class="description">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolor
-                                doloremque excepturi harum illum itaque nostrum pariatur provident quia veniam! Aliquam
-                                aperiam asperiores commodi, debitis doloremque dolores doloribus ea ex harum iure maiores
-                                necessitatibus nemo non nostrum nulla odio omnis perspiciatis placeat qui quibusdam
-                                repellat reprehenderit suscipit tempore vel velit!
+                            <p> Conception Graphique/ Intégration/ Intégration d'une carte interactive
                             </p>
                         </div>
                         <div class="general-info">
                             <ul>
                                 <li>Créé le - <span>04 janvier 2021</span></li>
-                                <li>Technologie utilisées - <span>html, css, js, symfony</span></li>
+                                <li>Technologie utilisées - <span>html, css, js, symfony, webpack</span></li>
                                 <li>Role - <span>Frontend</span></li>
-                                <li>Visitez le site en ligne <span><a href="#" target="_blank">www.GuyNwogang.com</a></span></li>
+                                <li>Visitez le site en ligne <span><a href="#" target="_blank">www.RepareOnline.com</a></span></li>
                             </ul>
                         </div>
                     </div>
@@ -298,17 +286,13 @@ include 'download.php';
                 <!-- Portfolio Item Start -->
                 <div class="portfolio-item">
                     <div class="portfolio-item-thumbnail">
-                        <img src="images/portfolio/4.jpeg" alt="portfolio-item-thumbnail">
+                        <img src="images/portfolio/3.jpg" alt="portfolio-item-thumbnail">
                     </div>
-                    <h3 class="portfolio-item-title">jardinage Website</h3>
+                    <h3 class="portfolio-item-title">Landing Page</h3>
                     <button type="button" class="btn view-project-btn">voir le projet</button>
                     <div class="portfolio-item-details">
                         <div class="description">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolor
-                                doloremque excepturi harum illum itaque nostrum pariatur provident quia veniam! Aliquam
-                                aperiam asperiores commodi, debitis doloremque dolores doloribus ea ex harum iure maiores
-                                necessitatibus nemo non nostrum nulla odio omnis perspiciatis placeat qui quibusdam
-                                repellat reprehenderit suscipit tempore vel velit!
+                            <p>Mis en place d'animation Java Script avec la librairie GSAP
                             </p>
                         </div>
                         <div class="general-info">
@@ -325,17 +309,13 @@ include 'download.php';
                 <!-- Portfolio Item Start -->
                 <div class="portfolio-item">
                     <div class="portfolio-item-thumbnail">
-                        <img src="images/portfolio/5.jpg" alt="portfolio-item-thumbnail">
+                        <img src="images/portfolio/3.jpg" alt="portfolio-item-thumbnail">
                     </div>
-                    <h3 class="portfolio-item-title">Yoga website</h3>
+                    <h3 class="portfolio-item-title">Geek Garage</h3>
                     <button type="button" class="btn view-project-btn">voir le projet</button>
                     <div class="portfolio-item-details">
                         <div class="description">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolor
-                                doloremque excepturi harum illum itaque nostrum pariatur provident quia veniam! Aliquam
-                                aperiam asperiores commodi, debitis doloremque dolores doloribus ea ex harum iure maiores
-                                necessitatibus nemo non nostrum nulla odio omnis perspiciatis placeat qui quibusdam
-                                repellat reprehenderit suscipit tempore vel velit!
+                            <p>Conception Graphique/ Intégration/ Intégration d'une carte interactive
                             </p>
                         </div>
                         <div class="general-info">
@@ -352,17 +332,13 @@ include 'download.php';
                 <!-- Portfolio Item Start -->
                 <div class="portfolio-item">
                     <div class="portfolio-item-thumbnail">
-                        <img src="images/portfolio/6.jpg" alt="portfolio-item-thumbnail">
+                        <img class="w-40" src="images/portfolio/3.jpg" alt="portfolio-item-thumbnail">
                     </div>
-                    <h3 class="portfolio-item-title">Evenementiel website</h3>
+                    <h3 class="portfolio-item-title">Portfolio</h3>
                     <button type="button" class="btn view-project-btn">voir le projet</button>
                     <div class="portfolio-item-details">
                         <div class="description">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolor
-                                doloremque excepturi harum illum itaque nostrum pariatur provident quia veniam! Aliquam
-                                aperiam asperiores commodi, debitis doloremque dolores doloribus ea ex harum iure maiores
-                                necessitatibus nemo non nostrum nulla odio omnis perspiciatis placeat qui quibusdam
-                                repellat reprehenderit suscipit tempore vel velit!
+                            <p>Thème glassmorphism/ Css shapes
                             </p>
                         </div>
                         <div class="general-info">
